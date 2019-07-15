@@ -52,6 +52,7 @@ public class UserRepositoryServiceTest {
         profile = null;
     }
 
+    // This is a test
     @Test
     public void testSave() {
         when(userRepository.save(any(Profile.class))).thenReturn(profile);
