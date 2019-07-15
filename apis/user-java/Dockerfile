@@ -12,8 +12,7 @@ EXPOSE 8080
 ENV SQL_USER="openhack1c40sa" \
 SQL_PASSWORD="uW6hh7Tq2pwd" \
 SQL_SERVER="openhack1c40sql" \
-SQL_DBNAME="mydrivingDB" \
-
+SQL_DBNAME="mydrivingDB"
 
 # Add the application's jar to the container
 COPY --from=build-env target/swagger-spring-1.0.0.jar user-java.jar
