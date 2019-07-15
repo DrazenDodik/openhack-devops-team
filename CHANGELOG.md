@@ -10,7 +10,7 @@
 - Remove Proctor monitoring infrastructure and replace with Bash Curl/PowerShell scripts
 
 *Bug Fixes*
-* ...
+* A bug fix
 
 *Breaking Changes*
 * ...
